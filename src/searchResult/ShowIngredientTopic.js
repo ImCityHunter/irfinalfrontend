@@ -23,9 +23,9 @@ class ShowIngredientTopic extends React.Component{
     render() {
         return(
             <Nav.Item className={'mr-2'}>
-                <Nav.Link>
+                <Nav.Link onClick={()=>this.delete(this.state.ingredient)}>
                     <span>{this.state.ingredient}</span>
-                    <span onClick={()=>this.delete(this.state.ingredient)}> X </span>
+                    <span> X </span>
                 </Nav.Link>
             </Nav.Item>
         )

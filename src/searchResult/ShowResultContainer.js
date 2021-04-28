@@ -85,7 +85,7 @@ class ShowResultContainer extends React.Component{
 
 
                     {this.state.ingredientsArr!==undefined && this.state.ingredientsArr.map (ingredient=>
-                        <ShowIngredientTopic deleteIngredient = {this.deleteIngredient} ingredient={ingredient}/>)}
+                        <ShowIngredientTopic deleteIngredient = {this.deleteIngredient} ingredient={ingredient} key={ingredient}/>)}
 
                 </Nav>
 
