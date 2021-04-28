@@ -13,3 +13,4 @@ In the project directory, you can run:
 
 In order to run to this project. Must start server first.
 Instruction on how to start server is [here](https://github.com/ImCityHunter/irfinalbackend)
+Project Design is in the report.pdf in this repo
